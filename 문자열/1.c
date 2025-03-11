@@ -3,7 +3,7 @@
 
 int main(void) {
 	char s[10];
-	printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ½Ã¿À : ");
+	printf("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
 	gets(s);
 	for (int i = 0; s[i] != NULL; i++) {
 		if (isupper(s[i])) {
