@@ -2,22 +2,22 @@
 
 int main(void) {
     int year;
-    printf("³âµµ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+    printf("ë…„ë„ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
     scanf("%d", &year);
 
     if (year % 4 == 0) {
         if (year % 100 == 0) {
             if (year % 400 == 0)
-                printf("À±³â ÀÔ´Ï´Ù\n");
+                printf("ìœ¤ë…„ ì…ë‹ˆë‹¤\n");
             else
-                printf("À±³âÀÌ ¾Æ´Õ´Ï´Ù\n");
+                printf("ìœ¤ë…„ì´ ì•„ë‹™ë‹ˆë‹¤\n");
         }
         else {
-            printf("À±³â ÀÔ´Ï´Ù\n");
+            printf("ìœ¤ë…„ ì…ë‹ˆë‹¤\n");
         }
     }
     else {
-        printf("À±³âÀÌ ¾Æ´Õ´Ï´Ù\n");
+        printf("ìœ¤ë…„ì´ ì•„ë‹™ë‹ˆë‹¤\n");
     }
 
     return 0;
