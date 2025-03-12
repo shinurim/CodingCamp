@@ -4,7 +4,7 @@
 int main(void) {
 	int x;
 	int num[10];
-	printf("½ÊÁø¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ì‹­ì§„ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤ :");
 	scanf("%d", &x);
 	int i = 0;
 	while (x > 1) {
