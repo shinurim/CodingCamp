@@ -13,7 +13,7 @@ int main() {
 		alphabet[k].alphabet = (char)i;
 		alphabet[k++].often = 0;
 	}
-	printf("¹®ÀåÀÔ·Â: ");
+	printf("ë¬¸ì¥ì…ë ¥: ");
 	gets(arr);
 	for (int i = 0; i < 26; i++) {
 		for (int j = 0; j < strlen(arr); j++) {
