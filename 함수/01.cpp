@@ -8,7 +8,7 @@ int fself(int n) {
 }
 int main(void) {
 	int n;
-	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À = ");
+	printf("ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤ = ");
 	scanf("%d", &n);
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕ %d\n", n, fself(n));
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ í•© %d\n", n, fself(n));
 }
