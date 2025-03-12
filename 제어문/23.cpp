@@ -6,7 +6,7 @@
 int main() {
 	srand(time(NULL));
 	int arr[100];
-	printf("1~9 ³­¼ö 100°³");
+	printf("1~9 ë‚œìˆ˜ 100ê°œ");
 	for (int i = 0; i < 100; i++) {
 		if (i % 10 == 0) printf("\n");
 		arr[i] = 1 + rand() % 9;
