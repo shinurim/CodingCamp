@@ -3,7 +3,7 @@
 
 int main(void) {
 	int n;
-	printf("¾çÀÇ Á¤¼ö¸¦ ÀÔ·Â : ");
+	printf("ì–‘ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥ : ");
 	scanf("%d", &n);
 	while (n) {
 		if (n % 2 != 0)
