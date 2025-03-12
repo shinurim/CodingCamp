@@ -3,11 +3,11 @@
 int main(void) {
 	int x;
 	int k = 0;
-	printf("Á¤¼öÀÔ·Â: ");
+	printf("ì •ìˆ˜ì…ë ¥: ");
 	scanf("%d", &x);
 	while (x >= 10) {
 		x /= 10;
 		k++;
 	}
-	printf("ÀÚ¸®¼ö = %d\n", ++k);
+	printf("ìë¦¬ìˆ˜ = %d\n", ++k);
 }
