@@ -9,6 +9,6 @@ int str_reverse(char* s) {
 	str_reverse(s);
 }
 int main() {
-	printf("Hello\n¿ªÀ¸·Î Ãâ·Â >> ");
+	printf("Hello\nì—­ìœ¼ë¡œ ì¶œë ¥ >> ");
 	str_reverse("Hello");
 }
