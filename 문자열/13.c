@@ -5,7 +5,7 @@
 int main() {
 	char str1[100];
 	char str2[100];
-	printf("¹®ÀÚÀ» ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ë¬¸ìì„ ì…ë ¥í•˜ì‹œì˜¤ :");
 	gets(str1);
 	int k = 0;
 	int n = 0;
