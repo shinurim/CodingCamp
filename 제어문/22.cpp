@@ -5,7 +5,7 @@ int main(void) {
 	int k = 0;
 	do {
 		k++;
-		printf("¼ö½ÄÀÔ·Â : ");
+		printf("ìˆ˜ì‹ì…ë ¥ : ");
 		int x, y; char z;
 		scanf("%d", &x);	scanf("%c", &z);	scanf("%d", &y);
 		switch (z) {
