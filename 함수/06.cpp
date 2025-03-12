@@ -14,8 +14,8 @@ int mid(int x, int y, int z) {
 }
 int main(void) {
 	int x, y, z;
-	printf("¼¼ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ì„¸ ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤ :");
 	scanf("%d %d %d", &x, &y, &z);
-	printf("Áß°£ °ªÀº %d", mid(x, y, z));
+	printf("ì¤‘ê°„ ê°’ì€ %d", mid(x, y, z));
 	return 0;
 }
