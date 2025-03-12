@@ -6,19 +6,19 @@ int main(void) {
 	char ID1[20];
 	char PW[20] = "computer";
 	char PW1[20];
-	printf("¾ÆÀÌµğ :");
+	printf("ì•„ì´ë”” :");
 	gets(ID1);
 	for (i = 0; ID[i] != '\0'; i++) {
 		if (ID[i] != ID1[i]) {
-			printf("µî·ÏµÇÁö ¾ÊÀº ¾ÆÀÌµğ ÀÔ´Ï´Ù");
+			printf("ë“±ë¡ë˜ì§€ ì•Šì€ ì•„ì´ë”” ì…ë‹ˆë‹¤");
 			return 0;
 		}
 	}
 	if (ID1[i] != '\0') {
-		printf("µî·ÏµÇÁö ¾ÊÀº ¾ÆÀÌµğ ÀÔ´Ï´Ù");
+		printf("ë“±ë¡ë˜ì§€ ì•Šì€ ì•„ì´ë”” ì…ë‹ˆë‹¤");
 		return 0;
 	}
-	printf("ºñ¹Ğ¹øÈ£ :");
+	printf("ë¹„ë°€ë²ˆí˜¸ :");
 	gets(PW1);
 	for (i = 0; PW[i] != '\0'; i++) {
 		if (PW[i] != PW1[i]) {
@@ -31,6 +31,6 @@ int main(void) {
 		return 0;
 	}
 	else
-		printf("Hansung´Ô È¯¿µÇÕ´Ï´Ù");
+		printf("Hansungë‹˜ í™˜ì˜í•©ë‹ˆë‹¤");
 	return 0;
 }
