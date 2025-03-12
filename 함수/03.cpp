@@ -13,7 +13,7 @@ int fself(int n) {
 }
 int main(void) {
 	int n;
-	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤ :");
 	scanf("%d", &n);
 	fself(n);
 }
