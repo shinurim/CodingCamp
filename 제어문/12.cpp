@@ -4,7 +4,7 @@
 int main(void) {
 	int sum = 0, add;
 	while (1) {
-		printf("sum= %d ´õÇÒ °ª ÀÔ·Â: ", sum);
+		printf("sum= %d ë”í•  ê°’ ì…ë ¥: ", sum);
 		scanf("%d", &add);
 		if ((sum += add) == 100) {
 			printf("sum= %d", sum);
