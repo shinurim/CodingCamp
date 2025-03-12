@@ -8,7 +8,7 @@ int sum(int x) {
 }
 int main(void) {
 	int x; 
-	printf("¾çÀÇ Á¤¼ö¸¦ ÀÔ·Â : ");
+	printf("양의 정수를 입력 : ");
 	scanf("%d", &x);
 	printf("%d\n", sum(x));
 	return 0;
