@@ -4,7 +4,7 @@ double function(double n);
 
 int main() {
 	int n;
-	printf("¼ýÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À >> ");
+	printf("ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì‹œì˜¤ >> ");
 	scanf("%d", &n);
 	printf("%lf", function(n));
 	return 0;
