@@ -9,8 +9,8 @@ int main(void) {
 	struct strLine str[10];
 	int howlong[10];
 	int j;
-	printf("¿©·¯ ÁÙ¿¡ ¿øÇÏ´Â ¹®ÀåÀ» ÀÔ·ÂÇÏ¼¼¿ä.\n");
-	printf("ÀÔ·ÂÀÌ ´Ù µÇ¾úÀ¸¸é »õ·Î¿î ÁÙ Ã³À½¿¡ exit ±×¸®°í Enter¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n");
+	printf("ì—¬ëŸ¬ ì¤„ì— ì›í•˜ëŠ” ë¬¸ì¥ì„ ì…ë ¥í•˜ì„¸ìš”.\n");
+	printf("ì…ë ¥ì´ ë‹¤ ë˜ì—ˆìœ¼ë©´ ìƒˆë¡œìš´ ì¤„ ì²˜ìŒì— exit ê·¸ë¦¬ê³  Enterë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n");
 	for (j = 0; j < 10; j++) {
 		gets(str[j].line);
 		if (strcmp(str[j].line, "exit") == 0)
@@ -25,5 +25,5 @@ int main(void) {
 			longest = i;
 		else continue;
 	}
-	printf("°¡Àå Å« ¹®Àå %s. ±æÀÌ %d À§Ä¡ %d", str[longest].line, strlen(str[longest].line), longest + 1);
+	printf("ê°€ì¥ í° ë¬¸ì¥ %s. ê¸¸ì´ %d ìœ„ì¹˜ %d", str[longest].line, strlen(str[longest].line), longest + 1);
 }
