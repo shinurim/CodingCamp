@@ -2,12 +2,12 @@
 
 int main(void) {
 	int apple, box;
-	printf("»ç°ú¼ö ÀÔ·Â : ");
+	printf("ì‚¬ê³¼ìˆ˜ ì…ë ¥ : ");
 	scanf("%d", &apple);
 	if (apple % 20 != 0) {
 		box = apple / 20;
-		printf("»óÀÚ ¼ö = %d\n", ++box);
+		printf("ìƒì ìˆ˜ = %d\n", ++box);
 	}
-	else printf("»óÀÚ ¼ö = %d\n", apple / 20);
+	else printf("ìƒì ìˆ˜ = %d\n", apple / 20);
 	return 0;
 }
