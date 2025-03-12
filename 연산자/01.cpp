@@ -2,7 +2,7 @@
 
 int main(void) {
 	int x, y, z;
-	printf("¼¼ °³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì„¸ ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d %d %d", &x, &y, &z);
 	if (x >= y) {
 		y = x;
@@ -15,6 +15,6 @@ int main(void) {
 			y = z;
 		}
 	}
-	printf("°¡Àå Å« ¼ö: %d\n", y);
+	printf("ê°€ì¥ í° ìˆ˜: %d\n", y);
 	return 0;
 }
