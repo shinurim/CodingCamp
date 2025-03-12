@@ -11,7 +11,7 @@ int factorial(int n) {
 int main(void) {
 	int n;
 	int sum = 0;
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤ :");
 	scanf("%d", &n);
 	for (int i = 0; i <= n; i++) {
 		printf("%d!:%d ", i, factorial(i));
