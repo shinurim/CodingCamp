@@ -4,12 +4,12 @@
 int main(void) {
 	int k = 1;
 	int total = 0;
-	printf("цБ╥б : %d╨нем ", k);
+	printf("Л╤°К═╔ : %dК╤─М└╟ ", k);
 	while (1) {
 		total += k;
 		if (total > 1000) break;
 		k++;
 	}
 	total -= k--;
-	printf("%d╠НаЖюг гую╨ %dют╢о╢ы.\n", k, total);
+	printf("%dЙ╧▄Л╖─Л²≤ М∙╘Л²─ %dЛ·┘К▀┬К▀╓.\n", k, total);
 }
