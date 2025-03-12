@@ -3,10 +3,10 @@
 
 int main(void) {
 	char str[20];
-	printf("¹®ÀÚ¿­ ÀÔ·Â: ");
+	printf("ë¬¸ìì—´ ì…ë ¥: ");
 	gets(str);
 	int len = strlen(str);
-	printf("¹®ÀÚ¿­±æÀÌ = %d\n", len);
+	printf("ë¬¸ìì—´ê¸¸ì´ = %d\n", len);
 	for (int i = len; i != 0; i--) {
 		for (int j = 0; j < i; j++)
 			printf("%c", str[j]);
