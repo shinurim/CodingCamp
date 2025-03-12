@@ -3,8 +3,8 @@
 
 int main(void) {
 	int x, y;
-	printf("µÎ ¼ö¸¦ ÀÔ·Â\n");
+	printf("ë‘ ìˆ˜ë¥¼ ìž…ë ¥\n");
 	scanf("%d %d", &x, &y);
-	(x > y) ? printf("ÇÕ : %d", x + y) : printf("°ö : %d", x * y);
+	(x > y) ? printf("í•© : %d", x + y) : printf("ê³± : %d", x * y);
 	return 0;
 }
