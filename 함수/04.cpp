@@ -10,7 +10,7 @@ int round(double f) {
 }
 int main(void) {
 	double f;
-	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤ :");
 	scanf("%lf", &f);
-	printf("¹İ¿Ã¸²ÇÕ´Ï´Ù :%d", round(f));
+	printf("ë°˜ì˜¬ë¦¼í•©ë‹ˆë‹¤ :%d", round(f));
 }
