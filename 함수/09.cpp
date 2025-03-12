@@ -8,7 +8,7 @@ int ffactorial(int n) {
 }
 int main(void) {
 	int num;
-	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤ :");
 	scanf("%d", &num);
 	printf("%d! = %d", num, ffactorial(num));
 }
