@@ -5,7 +5,7 @@ int string_value(char* a);
 int main(void) {
 	int str[100];
 	gets(str);
-	printf("Á¤¼ö°ªÀº %d", string_value(str));
+	printf("ì •ìˆ˜ê°’ì€ %d", string_value(str));
 }
 int string_value(char* a) {
 	int x = atoi(a);
