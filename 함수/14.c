@@ -16,5 +16,5 @@ int main() {
 		else if (max == arr[i])
 			often++;
 	}
-	printf("%d°¡ %d¹ø Ãâ·ÂµÇ¾ú½À´Ï´Ù.\n", max, often);
+	printf("%dê°€ %dë²ˆ ì¶œë ¥ë˜ì—ˆìŠµë‹ˆë‹¤.\n", max, often);
 }
