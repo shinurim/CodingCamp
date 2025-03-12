@@ -4,9 +4,9 @@
 
 int main(void) {
 	char str[20];
-	printf("ÀÔ·Â: ");
+	printf("ìž…ë ¥: ");
 	gets(str);
-	printf("Ãâ·Â: ");
+	printf("ì¶œë ¥: ");
 	for (int i = 0; i < strlen(str); i++) {
 		if (str[i] == str[i + 1]) {
 			continue;
