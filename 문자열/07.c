@@ -3,7 +3,7 @@
 
 int main(void) {
 	int x;
-	printf("ÀÌÁø¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ì´ì§„ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ :");
 	scanf("%d", &x);
 	int sum = 0;
 	int m = 0;
@@ -28,5 +28,5 @@ int main(void) {
 			}
 		}
 	}
-	printf("10Áø¼ö·ÎÀÇ º¯È¯ °ªÀº %d\n", sum);
+	printf("10ì§„ìˆ˜ë¡œì˜ ë³€í™˜ ê°’ì€ %d\n", sum);
 }
