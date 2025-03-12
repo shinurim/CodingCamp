@@ -3,7 +3,7 @@
 
 int main(void) {
 	char ch1[20], ch2[20], ch3[20];
-	printf("¿µ¹®ÀÚ 3°³¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì˜ë¬¸ì 3ê°œë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%s", ch1);
 	scanf("%s", ch2);
 	scanf("%s", ch3);
