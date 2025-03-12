@@ -3,9 +3,9 @@
 
 int main(void) {
 	int num;
-	printf("¼ıÀÚ¸¦ ÀÔ·Â :");
+	printf("ìˆ«ìë¥¼ ì…ë ¥ :");
 	scanf("%d", &num);
-	printf("°á°ú :");
+	printf("ê²°ê³¼ :");
 	while (1) {
 		int k = num % 10;
 		num /= 10;
