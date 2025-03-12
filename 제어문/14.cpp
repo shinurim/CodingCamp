@@ -3,10 +3,10 @@
 
 int main(void) {
 	int n, sum = 0;
-	printf("Á¤¼ö ¹üÀ§ ÀÔ·Â : ");
+	printf("ì •ìˆ˜ ë²”ìœ„ ìž…ë ¥ : ");
 	scanf("%d", &n);
 	for (int i = 1; i <= n; i += 2)
 		sum += i;
-	printf("1 ~ %d È¦ ¼ö ÇÕ = %d", n, sum);
+	printf("1 ~ %d í™€ ìˆ˜ í•© = %d", n, sum);
 	return 0;
 }
