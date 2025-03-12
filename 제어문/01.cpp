@@ -8,7 +8,7 @@ int sum(int x) {
 }
 int main(void) {
 	int x; 
-	printf("¾çÀÇ Á¤¼ö¸¦ ÀÔ·Â : ");
+	printf("Â¾Ã§Ã€Ã‡ ÃÂ¤Â¼Ã¶Â¸Â¦ Ã€Ã”Â·Ã‚ : ");
 	scanf("%d", &x);
 	printf("%d\n", sum(x));
 	return 0;
