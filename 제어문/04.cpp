@@ -3,21 +3,21 @@
 
 int main(void) {
 	int rank;
-	printf("¸îµî ÀÔ´Ï±î : ");
+	printf("ëª‡ë“± ì…ë‹ˆê¹Œ : ");
 	scanf("%d", &rank);
-	printf("%dµî : ", rank);
+	printf("%dë“± : ", rank);
 	switch (rank) {
 	case(1):
-		printf("ÇÁ¸°Æ® ");
+		printf("í”„ë¦°íŠ¸ ");
 	case(2):
-		printf("ÄÄÇ»ÅÍ ");
+		printf("ì»´í“¨í„° ");
 	case(3):
-		printf("»ó±İ ");
+		printf("ìƒê¸ˆ ");
 	case(4):
-		printf("»óÆĞ ");
+		printf("ìƒíŒ¨ ");
 		break;
 	default:
-		printf("±× ¿Ü : ¾øÀ½");
+		printf("ê·¸ ì™¸ : ì—†ìŒ");
 		break;
 	}
 	printf("\n");
